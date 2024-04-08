@@ -47,7 +47,7 @@ function Home() {
             <img src={data.posterURL} alt="" />
             <h2>{data.name}</h2>
           </div>
-        )) : <p>error while fetching data</p>}
+        )) : <p>loading...</p>}
       </div>
       
     </div>
